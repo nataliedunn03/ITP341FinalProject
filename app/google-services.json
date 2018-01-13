@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "437743634337",
+    "firebase_url": "https://lastcheck-ecd18.firebaseio.com",
+    "project_id": "lastcheck-ecd18",
+    "storage_bucket": "lastcheck-ecd18.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437743634337:android:793c2904bfdf643d",
+        "android_client_info": {
+          "package_name": "natalie.dunn.itp341.final_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437743634337-1v7vc0svc39s9596teicnlvr2s7kdo8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDam_28W9RahWglldZf7cTzJFYCsTnX0U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

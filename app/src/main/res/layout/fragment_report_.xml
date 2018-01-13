@@ -1,0 +1,109 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="natalie.dunn.itp341.final_project.Report_Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/date_icon"
+        android:contentDescription="@string/date_icon"/>
+
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/date"
+            android:id="@+id/textView3"
+            android:contentDescription="@string/date"
+            android:textAlignment="center"
+            android:layout_gravity="center" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/time_icon"
+            android:contentDescription="@string/time_icon"/>
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/time"
+            android:id="@+id/textView4"
+            android:contentDescription="@string/time"
+            android:textAlignment="center"
+            android:layout_gravity="center" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/map_icon"
+            android:contentDescription="@string/location"/>
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/location"
+            android:id="@+id/textView5"
+            android:textAlignment="center"
+            android:contentDescription="@string/location"
+            android:layout_gravity="center" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/description_icon"
+            android:contentDescription="@string/description_icon"/>
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Description"
+            android:id="@+id/textView6"
+            android:contentDescription="@string/Description"
+            android:textAlignment="center"
+            android:layout_gravity="center" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/file"
+            android:contentDescription="@string/report"
+            android:id="@+id/button8"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+</FrameLayout>

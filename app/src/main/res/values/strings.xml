@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Last Check</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="report">Report</string>
+    <string name="incident_map">Map</string>
+    <string name="archive">Archive</string>
+    <string name="my_incidents">My Incidents</string>
+    <string name="file">Report</string>
+    <string name="date">Date (eg, 12/18/16)</string>
+    <string name="time">Time (eg, 5:00PM)</string>
+    <string name="location">Location (eg, 3000 South Figueroa Street, Los Angeles, CA 90007)</string>
+    <string name="Description">Description (eg, Bike Theft)</string>
+    <string name="warning_message">Please fill in all fields before filing a report.</string>
+    <string name="login_image">Stop Sign Logo</string>
+    <string name="map_description">Google Map of Incident Locations</string>
+
+    <string name="password_hint">Password</string>
+    <string name="email_hint">Email</string>
+    <string name="sign_up_button_label">Sign Up</string>
+    <string name="signup_error_message">Please make sure you enter an email address and password!</string>
+    <string name="signup_error_title">Error!</string>
+    <string name="signup_success">Account successfully created! You can now Login.</string>
+    <string name="login_error_message">Please make sure you enter an email address and password!</string>
+    <string name="login_error_title">Error!</string>
+    <string name="login_button_label">Login</string>
+    <string name="sign_up_text">Sign Up!</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="add_item">Add New Item</string>
+    <string name="action_logout">Logout</string>
+    <string name="date_icon">Date Icon</string>
+    <string name="time_icon">Time Icon</string>
+    <string name="map_icon">Location Icon</string>
+    <string name="description_icon">Description Icon</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_incident_map">Map</string>
+</resources>
